@@ -110,7 +110,7 @@ def draw():
         canvas.create_rectangle(tile.x, tile.y, tile.x + TILE_SIZE, tile.y + TILE_SIZE, fill = "blue")
         
     if(game_over):
-        canvas.create_text(WINDOW_WIDTH/2, font = "Arial 20", text = f"Game Over : {score}", fill = "white" )
+        canvas.create_text(85, 20, font = "Arial 20", text = "GAME OVER", fill = "white")
     else: 
         canvas.create_text(30, 20, font = "Arial 10", text = f"Score : {score}", fill = "white")
     
